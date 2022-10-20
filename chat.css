@@ -211,15 +211,16 @@
     content: '';
     position: absolute;
     bottom: -12px;
-    left: 0;
+    right: 0;
     width: 20px;
     height: 20px;
-    background: linear-gradient(127deg, #50CB93 50%, #50CB93 50%, transparent 50%,transparent);
+    background: linear-gradient(232deg, #50CB93 50%, #50CB93 50%, transparent 50%,transparent);
 }
 .time {
     position: absolute;
     max-width: 45%;
     bottom: -20px;
+    right: 8px;
 }
 .time span{
     font-size: 12px;
@@ -233,4 +234,17 @@
 }
 .frndMsg .time{
     margin-left: 35%;
+    left: 0;
+}
+.frndMsg p{
+    background: #c6dce4;
+}
+.msg.frndMsg p::before{
+    content: '';
+    position: absolute;
+    bottom: -12px;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    background: linear-gradient(127deg, #c6dce4 50%, #c6dce4 50%, transparent 50%,transparent);
 }
