@@ -10,6 +10,7 @@
     width: 100%;
     min-height: 100vh;
     background: #e8e8b3;
+    position: relative;
 }
 /* Sidenavbar */
 .sidenav{
@@ -19,14 +20,12 @@
     margin: 20px;
     background: #fff;
 }
-/* .nav{
-    position: relative;
-} */
+
 .propic{
     display: block;
     margin: 43px;
     margin-top: 30px;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
 }
 .propic img{
     width: 30px;
@@ -58,10 +57,11 @@
 .active a i{
     color: #50CB93;
 }
-.next{
+.nav .next{
     margin: 30px;
     padding: 0 20px;
     margin-top: 80px;
+    position: relative;
 }
 .next a{
     color: #000;
@@ -76,9 +76,10 @@
     background: #fff;
     position: absolute;
     margin: 10px;
-    left: 10%;
+    left: 12%;
     margin: 20px;
     margin-left: 50px;
+    margin-right: 20%;
     border-radius: 5px;
     box-shadow: 2px 2px 4px 1px rgba(0,0,0,0.6);
     overflow-y: scroll;
@@ -137,10 +138,8 @@
     height: 95%;
     background: #fff;
     position: absolute;
-    margin: 10px;
-    right: 20%;
+    left: 45%;
     margin: 20px;
-    margin-left: 50px;
     border-radius: 5px;
     box-shadow: 2px 2px 4px 1px rgba(0,0,0,0.6);
     overflow-y: scroll;
@@ -248,3 +247,25 @@
     height: 20px;
     background: linear-gradient(127deg, #c6dce4 50%, #c6dce4 50%, transparent 50%,transparent);
 }
+/* 
+@media only screen and (max-width: 1360px){
+    .chatbox{
+        right: 15%;
+        margin-left: 50px;
+    }
+}
+@media only screen and (max-width: 1270px){
+    .chatbox{
+        right: 13%;
+    }
+}
+@media only screen and (max-width: 1230px){
+    .chatbox{
+        right: 11%;
+    }
+}
+@media only screen and (min-width: 900px) and (max-width: 1200px){
+    .chatbox{
+        margin-left: 50%;
+    }
+} */
