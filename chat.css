@@ -247,6 +247,53 @@
     height: 20px;
     background: linear-gradient(127deg, #c6dce4 50%, #c6dce4 50%, transparent 50%,transparent);
 }
+.tail{
+    display: flex;
+    width: 100%;
+    z-index: 1;
+    position: sticky;
+    bottom: 0;
+}
+.typemsg{
+    width: 94%;
+    height: 30px;
+    background: #c6dce4;
+    border-radius: 5px;    
+    display: flex;
+    padding: 6px;
+    margin: 10px;
+    margin-right: 4px;
+    
+}
+.attach{
+    margin: 0 10px 0 5px;
+}
+.message{
+    margin: 0 5px;
+    width: 83%;
+}
+.message input{
+    width: 90%;
+    background: none;
+    border: none;
+    font-size: 15px;
+    padding-top: -4px;
+    outline: none;
+}
+.camera{
+    margin-left: 18px;
+}
+.record{
+    width: 6%;
+    height: 30px;
+    background: #c6dce4;
+    border-radius: 5px;  
+    padding: 6px;
+    padding-right: 0;
+    margin: 10px;
+    margin-left: 6px;
+}
+
 /* 
 @media only screen and (max-width: 1360px){
     .chatbox{
